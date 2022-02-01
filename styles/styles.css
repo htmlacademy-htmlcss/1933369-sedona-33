@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "PT sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/ptsans-700.woff2) format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/ptsans-400.woff2) format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    background-color: white;
+}
+
+.page-header {
+    color: black;
+    background: white;
+}
+
+.navigation-link {
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+
+.logo-title {
+    background-color: white;
+    background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.main-slogan {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.reasons {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.advantages {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.number {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.advantages-title {
+    text-align: center;
+}
+
+.advantages-item-logo {
+    text-align: center;
+}
+
+.advantages-discription {
+    text-align: center;
+}
+
+.search-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.search-text {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.button-subscribe {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    background: #756257;
+    text-decoration: none;
+    color: white;
+}
+
+.subscription {
+    background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-4.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.button-footer {
+    text-decoration: none;
+}
+
+.contacts-phone {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.inner-hotels {
+    color: white;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-5.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.inner-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.button-inner {
+    text-decoration: none;
+    color: white;
+}
+
+.catalog-filter-title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.button-apply {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    display: flex;
+    background: #83B3D3;
+    color: white;
+}
+
+.button-reset {
+    text-decoration: none;
+    color: white;
+}
+
+.widget {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+}
+
+.select-control {
+    border: 2px solid #E6E6E6;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.hotel-card {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.hotel-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: black;
+}
+
+.hotel-card-link {
+    text-decoration: none;
+}
+
+.hotel-card-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+    background: #756257;
+    text-decoration: none;
+}
+
+.card-button {
+    background: #83B3D3;
+    text-decoration: none;
+    color: white;
+}
+
+.hotel-card-rating {
+    background: #F2F2F2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: black;
+}
+
+.pagination-download-more {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    display: flex;
+    background: #83B3D3;
+    color: white;
+    text-align: center;
+}
+
+.pagination {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.pagination-link {
+    color: black;
+    background: #83B3D3;
+    text-decoration: none;
+}
+
+.select-control-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.subscription-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.subscription-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.subscription-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    color: white;
+    background: #83B3D3;
+}

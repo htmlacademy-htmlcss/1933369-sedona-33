@@ -14,49 +14,17 @@
     font-display: swap;
 }
 
-html {
-    height: 100%;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    margin: 0;
     font-family: "PT sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
     color: black;
     background-color: white;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.main-container {
-    flex-grow: 1;
 }
 
 .page-header {
     color: black;
     background: white;
-}
-
-.navigation-list {
-    margin: 0;
-    padding: 0;
-    width: 345px;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.navigation-user {
-    max-width: 300px;
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
 }
 
 .navigation-link {
@@ -66,16 +34,6 @@ body {
     color: black;
     background: white;
     text-decoration: none;
-    padding: 20px 17px;
-    display: block;
-    min-width: 16px;
-    min-height: 22px;
-}
-
-.navigation {
-    display: flex;
-    width: 1060px;
-    margin: 0 auto;
 }
 
 .logo-title {
@@ -83,36 +41,6 @@ body {
     background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-1.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-    width: 1200px;
-    margin: 0 auto;
-    border: 0;
-    margin-bottom: 63px;
-}
-
-.vector-header {
-    display: block;
-    margin: 0 auto;
-}
-
-.page-container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.main-logo {
-    display: block;
-    margin: 0 auto;
 }
 
 .main-slogan {
@@ -121,9 +49,6 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    margin: 0 auto;
-    width: 720px;
-    margin-bottom: 31px;
 }
 
 .reasons {
@@ -132,9 +57,6 @@ body {
     font-size: 22px;
     line-height: 36px;
     text-align: center;
-    width: 720px;
-    margin: 0 auto;
-    margin-bottom: 80px;
 }
 
 .advantages {
@@ -142,8 +64,6 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    display: grid;
-    margin-bottom: 0;
 }
 
 .advantages-title {
@@ -162,66 +82,12 @@ body {
     text-align: center;
 }
 
+.advantages-item-logo {
+    text-align: center;
+}
+
 .advantages-discription {
     text-align: center;
-    width: 250px;
-}
-
-.advantages-item-number {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #83B3D31F;
-}
-
-.advantages-items-2 {
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 384px;
-}
-
-.advantages-items {
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 384px 384px 384px;
-}
-
-.advantages-item-road {
-    background-color: #83B3D333;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.advantages-list-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #83B3D3;
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.advantages-list-item-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #83B3D3;
-    grid-row: 3;
-    grid-column: 3;
-}
-
-.advantages-list {
-    padding-left: 0;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 384px 384px 384px 384px
 }
 
 .search-title {
@@ -236,26 +102,6 @@ body {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    width: 720px;
-}
-
-.search {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.advantages-item-logo {
-    background-color: #83B3D31F;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.white {
-    background-color: white;
 }
 
 .button-subscribe {
@@ -286,12 +132,6 @@ body {
     color: black;
 }
 
-.contacts {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .inner-hotels {
     color: white;
     font-size: 18px;
@@ -300,8 +140,6 @@ body {
     background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-5.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .inner-title {
@@ -440,24 +278,4 @@ body {
     display: flex;
     color: white;
     background: #83B3D3;
-}
-
-.qwerty-2 {
-    grid-row: 4;
-    grid-column: 1/4;
-}
-
-.qwerty {
-    grid-row: 2;
-    grid-column: 1/4;
-}
-
-.advantages-item {
-    grid-row: 3;
-    grid-column: 1/2;
-}
-
-.advantages-item-photo {
-    grid-column: 2/3;
-    grid-row: 1;
 }

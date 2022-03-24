@@ -292,7 +292,6 @@
     }
     
     .subscription {
-        background-image: url("../images/background-5.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
         height: 411px;
@@ -531,6 +530,8 @@
         text-align: center;
         color: white;
         padding-top: 94px;
+        color: black;
+        text-transform: uppercase;
     }
     
     .subscription-text {
@@ -542,6 +543,7 @@
         margin: 0;
         padding-bottom: 46px;
         color: white;
+        color: black;
     }
     
     .subscription-button {
@@ -583,6 +585,7 @@
         border-radius: 10px 0px 0px 10px;
         border: none;
         font-size: 18px;
+        background-color: #F2F2F2;
     }
     
     .subscription-form {
@@ -592,9 +595,11 @@
     }
     
     .navigation-link-current {
-        padding: 20px 17px;
+        padding: 20px 0;
         display: block;
         font-weight: 700;
+        margin: 0 17px;
+        border-bottom: 2px solid #756257;
     }
     
     .navigation-link:active {
@@ -916,10 +921,9 @@
         line-height: 40px;
         text-transform: uppercase;
     }
-    
-    .modal-container {
+    /*.modal-container {
         display: none;
-    }
+    }*/
     
     .index-content {
         width: 1200px;
@@ -961,6 +965,13 @@
     
     .contacts-phone:hover {
         color: #756257;
+    }
+    
+    .contacts-phone:focus {
+        padding: 15px;
+        border: 3px solid #83B3D3;
+        border-radius: 10px;
+        outline: 1px solid #83B3D3;
     }
     
     .contacts-phone:active {
@@ -1024,4 +1035,16 @@
         min-height: 22px;
         margin: 0 17px;
         border-bottom: 2px solid #756257;
+    }
+    
+    .button-list-item {
+        list-style-type: none;
+    }
+    
+    .hotel-card-imag:hover {
+        opacity: 0.6;
+    }
+    
+    .hotel-card-imag:focus {
+        border: 3px solid #83B3D3;
     }

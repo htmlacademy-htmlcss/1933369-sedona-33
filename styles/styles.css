@@ -2,7 +2,7 @@
         font-family: "PT sans";
         font-style: normal;
         font-weight: 700;
-        src: url(fonts/ptsans-700.woff2) format("woff2");
+        src: url"(fonts/ptsans-700.woff2) format("woff2")";
         font-display: swap;
     }
     
@@ -10,7 +10,7 @@
         font-family: "PT sans";
         font-style: normal;
         font-weight: 400;
-        src: url(fonts/ptsans-400.woff2) format("woff2");
+        src: url"(fonts/ptsans-400.woff2) format("woff2")";
         font-display: swap;
     }
     
@@ -28,9 +28,6 @@
         line-height: 21px;
         color: black;
         background-color: white;
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
     }
     
     .main-container {
@@ -74,6 +71,10 @@
         min-height: 22px;
     }
     
+    .navigation-link:hover {
+        color: #756257;
+    }
+    
     .navigation {
         display: flex;
         width: 1060px;
@@ -82,11 +83,10 @@
     
     .logo-title {
         background-color: white;
-        background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-1.jpg");
+        background-image: url("../images/background-1.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
         width: 1200px;
-        margin: 0 auto;
         border: 0;
         margin-bottom: 63px;
     }
@@ -115,6 +115,7 @@
     .main-logo {
         display: block;
         margin: 0 auto;
+        padding-top: 51px;
     }
     
     .main-slogan {
@@ -123,9 +124,10 @@
         font-size: 30px;
         line-height: 36px;
         text-align: center;
-        margin: 0 auto;
         width: 720px;
         margin-bottom: 31px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .reasons {
@@ -135,8 +137,9 @@
         line-height: 36px;
         text-align: center;
         width: 720px;
-        margin: 0 auto;
         margin-bottom: 80px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .advantages {
@@ -176,20 +179,20 @@
         justify-content: center;
         align-items: center;
         background-color: #83B3D31F;
+        height: 384px;
     }
     
     .advantages-items-2 {
         padding-left: 0;
         display: grid;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 384px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 384px
     }
     
     .advantages-items {
         padding-left: 0;
         display: grid;
-        grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 384px 384px 384px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     .advantages-item-road {
@@ -198,6 +201,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 384px;
     }
     
     .advantages-list-item {
@@ -209,6 +213,7 @@
         grid-row: 1;
         grid-column: 1;
         color: white;
+        height: 384px;
     }
     
     .advantages-list-item-2 {
@@ -220,13 +225,13 @@
         grid-row: 3;
         grid-column: 3;
         color: white;
+        height: 384px;
     }
     
     .advantages-list {
         padding-left: 0;
         display: grid;
         grid-template-columns: 400px 400px 400px;
-        grid-template-rows: 384px 384px 384px 384px;
         margin-top: 0;
         margin-bottom: 0;
         list-style-type: none;
@@ -262,6 +267,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 384px;
     }
     
     .white {
@@ -286,7 +292,7 @@
     }
     
     .subscription {
-        background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-4.jpg");
+        background-image: url("../images/background-5.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
         height: 411px;
@@ -319,7 +325,7 @@
         font-size: 18px;
         line-height: 23px;
         font-weight: 400;
-        background-image: url("/Users/ignatijkostromin/Documents/GitHub/1933369-sedona-33/images/background-5.jpg");
+        background-image: url("../images/background-5.jpg");
         background-size: 100% auto;
         background-repeat: no-repeat;
         width: 1200px;
@@ -359,7 +365,6 @@
         width: 160px;
         height: 48px;
         padding: 0;
-        margin: 0;
         border: none;
         border-radius: 4px;
         align-items: center;
@@ -444,6 +449,18 @@
         font-weight: 700;
         text-transform: uppercase;
         margin-top: 14px;
+    }
+    
+    .navigation-link-button:hover {
+        background: #615048;
+    }
+    
+    .navigation-link-button:focus {
+        border: 3px solid #83B3D3;
+    }
+    
+    .navigation-link-button:active {
+        color: rgba(255, 255, 255, 0.3);
     }
     
     .card-button {
@@ -534,18 +551,18 @@
         display: flex;
         color: white;
         background: #83B3D3;
-        border-radius: 0px 10px 10px 0px;
+        border-radius: 0 10px 10px 0px;
         border: none;
         align-items: center;
         text-transform: uppercase;
     }
     
-    .qwerty-2 {
+    .content-2 {
         grid-row: 4;
         grid-column: 1/4;
     }
     
-    .qwerty {
+    .content-1 {
         grid-row: 2;
         grid-column: 1/4;
     }
@@ -565,6 +582,7 @@
         height: 60px;
         border-radius: 10px 0px 0px 10px;
         border: none;
+        font-size: 18px;
     }
     
     .subscription-form {
@@ -576,6 +594,11 @@
     .navigation-link-current {
         padding: 20px 17px;
         display: block;
+        font-weight: 700;
+    }
+    
+    .navigation-link:active {
+        color: rgba(117, 98, 87, 0.3);
     }
     
     .catalog-filter {
@@ -585,7 +608,6 @@
     
     .hotels-type {
         display: flex;
-        margin: 0;
         padding: 0;
         margin-bottom: 45px;
         margin-top: 5px;
@@ -644,6 +666,8 @@
         padding-top: 9px;
         padding-bottom: 10px;
         font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
     }
     
     .section-3 {
@@ -733,7 +757,6 @@
         height: 4px;
         background-color: gray;
         width: 287px;
-        margin-top: 32px;
         margin-top: 20px;
     }
     
@@ -841,4 +864,164 @@
     
     .hotels-type-item {
         padding-right: 10px;
+    }
+    
+    .rating {
+        text-transform: uppercase;
+    }
+    
+    .green {
+        background-color: #7DB54F;
+        border-radius: 4px;
+    }
+    
+    .modal-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(242, 242, 242, 0.8);
+    }
+    
+    .modal {
+        position: relative;
+        margin: auto;
+        background-color: #ffffff;
+    }
+    
+    .modal-auth {
+        width: 715px;
+    }
+    
+    .modal-close-button {
+        position: absolute;
+        padding: 0;
+        top: 0;
+        right: 0;
+        width: 56px;
+        height: 44px;
+        background-color: #ffffff;
+        border: none;
+        background-image: url("../images/svg/close.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    .modal-title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    
+    .modal-container {
+        display: none;
+    }
+    
+    .index-content {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .button-subscribe:hover {
+        background: #615048;
+    }
+    
+    .button-subscribe:focus {
+        border: 3px solid #83B3D3;
+    }
+    
+    .button-subscribe:active .search-hotels {
+        opacity: 0.3;
+    }
+    
+    .field:hover {
+        background: #E6E6E6;
+    }
+    
+    .field:focus {
+        border: 3px solid #83B3D3;
+    }
+    
+    .subscription-button:hover {
+        background: #68A2CA;
+    }
+    
+    .subscription-button:focus {
+        border: 3px solid #756257;
+    }
+    
+    .subscription-button:active .subscription-button-item {
+        opacity: 0.3;
+    }
+    
+    .contacts-phone:hover {
+        color: #756257;
+    }
+    
+    .contacts-phone:active {
+        opacity: 0.3;
+    }
+    
+    .hotels-type-item:hover .inner-hotels-item {
+        opacity: 0.6;
+    }
+    
+    .hotels-type-item:focus .inner-hotels-item {
+        color: #FFFFFF;
+    }
+    
+    .hotels-type-item:active .inner-hotels-item {
+        opacity: 0.3;
+    }
+    
+    .hotels-type-item:hover .button-inner {
+        opacity: 0.6;
+    }
+    
+    .hotels-type-item:focus .button-inner {
+        color: #FFFFFF;
+    }
+    
+    .hotels-type-item:active .button-inner {
+        opacity: 0.3;
+    }
+    
+    .button-apply:hover {
+        background: #68A2CA;
+    }
+    
+    .button-apply:focus {
+        border: 3px solid #FFFFFF;
+    }
+    
+    .button-apply:active .button-apply-item {
+        opacity: 0.3;
+    }
+    
+    .button-reset:hover .button-reset-item {
+        opacity: 0.6;
+    }
+    
+    .button-reset:active .button-reset-item {
+        opacity: 0.3;
+    }
+    
+    .navigation-link-active {
+        line-height: 22px;
+        font-weight: 700;
+        text-align: center;
+        color: black;
+        background: white;
+        text-decoration: none;
+        padding: 20px 0;
+        display: block;
+        min-width: 16px;
+        min-height: 22px;
+        margin: 0 17px;
+        border-bottom: 2px solid #756257;
     }

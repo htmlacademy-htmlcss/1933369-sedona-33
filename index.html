@@ -13,12 +13,12 @@
         <header class="page-header">
             <nav class="navigation">
                 <div class="navigation-logo">
-                    <img class="logo" src="images/images.svg/logo.svg" width="139" height="70" alt="Логотип">
+                    <img class="logo" src="images/svg/logo.svg" width="139" height="70" alt="Логотип">
                 </div>
                 <ul class="navigation-list">
 
                     <li class="navigation-item">
-                        <a class="navigation-link">Главная </a>
+                        <a class="navigation-link-active">Главная </a>
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link" href="about.html">О Седоне </a>
@@ -52,8 +52,8 @@
 
             <div class="page-container">
                 <section class="logo-title">
-                    <img class="main-logo" src="images/images.svg/welcome.svg" width="458" height="352" alt="Логотип">
-                    <img class="vector-header" src="images/images.svg/vector-header.svg" alt="">
+                    <img class="main-logo" src="images/svg/welcome.svg" width="458" height="352" alt="Логотип">
+                    <img class="vector-header" src="images/svg/vector-header.svg" alt="">
                     <h1 class="visually-hidden  ">Седона</h1>
 
                 </section>
@@ -79,23 +79,23 @@
                         <li class="advantages-item-photo">
                             <img class="photo-top" src="images/background-2.jpg" Width="800" Height="384" alt="Изображение">
                         </li>
-                        <li class="qwerty">
+                        <li class="content-1">
 
                             <ul class="advantages-items">
 
 
                                 <li class="advantages-item-logo">
-                                    <img src="images/images.svg/hous.svg" width="75" height="72" alt="Дом">
+                                    <img src="images/svg/hous.svg" width="75" height="72" alt="Дом">
                                     <h3 class="advantages-title">Жильё</h3>
                                     <p class="advantages-discription">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
                                 </li>
                                 <li class="advantages-item-logo white">
-                                    <img src="images/images.svg/burger.svg" width="74" height="70" alt="Бургер">
+                                    <img src="images/svg/burger.svg" width="74" height="70" alt="Бургер">
                                     <h3 class="advantages-title">Еда</h3>
                                     <p class="advantages-discription">Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</p>
                                 </li>
                                 <li class="advantages-item-logo">
-                                    <img src="images/images.svg/present.svg" width="64" height="76" alt="Подарок">
+                                    <img src="images/svg/present.svg" width="64" height="76" alt="Подарок">
                                     <h3 class="advantages-title">Сувениры</h3>
                                     <p class="advantages-discription">Не только китайского, <br> но и настоящего местного <br> производства!</p>
                                 </li>
@@ -116,7 +116,7 @@
                             <span class="number">—№2—</span>
                             <p class="advantages-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
                         </li>
-                        <li class="qwerty-2">
+                        <li class="content-2">
                             <ul class="advantages-items-2">
                                 <li class="advantages-item-number">
                                     <h3 class="advantages-title">Небольшая <br> площадь
@@ -156,7 +156,7 @@
                     <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
                         <label class="visually-hidden" for="subcription-email">Email</label>
                         <input class="field" placeholder="Ваш e-mail" type="email" name="subcription-email" id="subcription-email">
-                        <button class="button subscription-button" type="submit">подписаться</button>
+                        <button class="button subscription-button" type="submit"><span class="subscription-button-item">подписаться</span> </button>
                     </form>
                 </section>
             </div>
@@ -188,10 +188,30 @@
                 </ul>
                 <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
                 <a class="navigation-logo" href="https://htmlacademy.ru/">
-                    <img class="footer-logo" src="images/images.svg/html.svg" alt="Логотип">
+                    <img class="footer-logo" src="images/svg/html.svg" alt="Логотип">
                 </a>
             </section>
         </footer>
+    </div>
+    <div class="modal-container">
+        <div class="modal modal-auth">
+            <button class="modal-close-button">
+                <span class="visually-hidden">Закрыть</span>
+              </button>
+            <section class="modal-content">
+                <h2 class="modal-title">поиск гостиницы в седоне</h2>
+                <form>
+                    <p class="modal-date"><span class="date-item">Дата заезда:</span> <input class="date-item" type="date" name="calendar"></p>
+                    <p class="modal-date-2"><span class="date-item-2">Дата выезда:</span> <input class="date-item-2" type="date" name="calendar"></p>
+                    <p class="adults"><span class="adults-item">Взрослые</span> <input type="number" min="1"></p>
+                    <p class="children"><span class="children-item">Дети</span> <input type="number"></p>
+                    <a class="modal-container-search" href="#"><span class="modal-cantainer-button">найти</span></a>
+
+                </form>
+
+        </div>
+
+
     </div>
 </body>
 
